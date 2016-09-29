@@ -1,2 +1,3 @@
 FLEXBOX BUTIKK
 https://css-tricks.com/designing-a-product-page-layout-with-flexbox/
+http://imgur.com/a/5mJI9
