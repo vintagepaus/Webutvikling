@@ -1,0 +1,16 @@
+Vintage Audio
+Vi skal lage en nettbutikk som selger kasetter, vinylplater og utstyr for å spille av disse.
+Siden skal inneholde:
+Header med logo og tittel.
+Meny med «Kontakt oss» «Vinyl» «Kasett» «Utsyr» «Hjem» + mer.
+Main med nyheter, vinyl, kasetter(bilder).
+ 	Når du trykker på bildene vil du få et «modal window» med utvidet informasjon om 
+ 	produktet. Også alternativ for kjøp.
+Footer med copyrights osv.
+
+Hvordan spør du?
+Flex box
+Modal window
+CSS3
+HTML5
+Javascript
