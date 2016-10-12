@@ -3,6 +3,34 @@ html {
   font-weight: 400;
 }
 
+body {
+ margin: 0;
+ background-color: #444;
+}
+
+.page-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #EEE;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/header_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: 300;
+  color: white;
+}
+
 .flex-down {
   display: -webkit-flex;
   display: flex;
@@ -15,12 +43,8 @@ html {
   flex-direction: row;
 }
 
-.page-container {
-  width: 80%;
-  max-width: 1200px;
-  margin: auto;
-}
 
+/*start på navbar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -74,6 +98,8 @@ li.dropdown {
 .right {
   float: right;
 }
+/*slutt på navbar*/
+
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
