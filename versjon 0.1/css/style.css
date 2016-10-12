@@ -3,13 +3,17 @@ html {
   font-weight: 400;
 }
 
-flex-container {
+.flex-down {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
 }
 
-flex-item{}
+.flex-right{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
 
 .page-container {
   width: 80%;
