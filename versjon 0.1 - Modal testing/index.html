@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
     <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/print.css" media="print">
+    <script src="js/modal.js"></script>
     <link rel="icon" href="favicon.ico">
     <title>Vintage Audio | Hjem</title>
+
+
 </head>
 
 <body>
+
     <!-- justerer bredden på innholdet -->
     <div class="page-container col-12 flex-down">
 
@@ -53,6 +58,32 @@
             <!-- container for hovedinnholdet -->
             <div class="main-container">
 
+
+
+
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">×</span>
+                            <h2 id="modalHead">Modal Header</h2>
+                        </div>
+                        <div class="modal-body">
+                            <a href="#" id="modalPic"><img src="albumbilde.png" alt="albumbilde"></a>
+                            <p id="modalT1">Some text in the Modal Body</p>
+                            <p id="modalT2">Some other text...</p>
+                            <a href="#" id="btnBuy">Legg til i handlekurv</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
                 <!-- container for nye album -->
                 <div class="new col-12">
                     <h2>Nyheter</h2>
@@ -60,14 +91,14 @@
                     <!-- container for albumbildene -->
                     <div class="carousel flex-right">
                         <div class="album col-4">
-                            <a href="#" target="_blank"><img src="albumbilde" alt="albumbilde"></a>
+                            <a href="#" id="myBtn1"><img src="albumbilde.png" alt="albumbilde"></a>
                             <div class="album-info">
                                 <p></p>
                             </div>
                             <p class="album-sub-text"></p>
                         </div>
                         <div class="album col-4">
-                            <a href="#" target="_blank"><img src="albumbilde" alt="albumbilde"></a>
+                            <a href="#" id="myBtn2"><img src="albumbilde" alt="albumbilde"></a>
                             <div class="album-info">
                                 <p></p>
                             </div>
