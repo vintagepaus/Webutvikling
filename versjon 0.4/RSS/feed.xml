@@ -1,0 +1,35 @@
+<?xml version="1.0"	encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Vintage Audio - nettbutikk</title>
+        <link>http://#.no</link>
+        <description>En nettside med alt av LP plater, kasetter og avspillingsutstyr</description>
+        <language>no</language>
+        <pubDate>Sun, 16 Oct 2016 14:37:00 GMT</pubDate>
+        <lastBuildDate>Sun, 16 Oct 2016	13:48:00 GMT</lastBuildDate>
+        
+		<image>
+			<url>http://www.#.com//.gif</url>
+			<title>Vintage Audio</title>
+			<link>http://www.#.com</link>
+		</image>
+		
+		<item>
+            <title>Kampanje på LP plater</title>
+            <link>http://www.#.no/</link>
+            <description>Kampanjer på LP plater</description>
+        </item>
+        <item>
+            <title>Kampanje på kasetter</title>
+            <link>http://www.#.no/</link>
+            <description>Kampanje på kasetter</description>
+        </item>
+		<item>
+            <title>Kampanje på avspillingsutstyr</title>
+            <link>http://www.#.no/</link>
+            <description>Kampanje på avspillingsutstyr</description>
+        </item>
+    </channel>
+</rss>
+
+<!-- <link	href="feed.xml"	type="application/rss+xml"	rel="alternate"	title="Min	RSS	Feed"	/> -->
