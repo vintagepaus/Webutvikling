@@ -21,7 +21,7 @@
     background-color: rgb(220, 220, 220);
     margin: auto;
     padding: 0;
-    width: 55%;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -35,6 +35,11 @@
     position: relative;
     float: left;
     padding: 5px;
+}
+
+#modalPic img {
+  max-width: 100%;
+  height: auto;
 }
 
 #btnBuy {
@@ -110,4 +115,20 @@
 
 .modal-body p {
   padding-left: 15px;
+  margin: 10px;
+}
+
+#modalT1 {
+float:left;
+}
+
+#modalT2 {
+  clear: both;
+}
+
+@media all and (min-width: 850px) {
+  .modal-content {
+    width: 50%;
+    min-width: 540px;
+  }
 }

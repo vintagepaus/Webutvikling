@@ -25,8 +25,8 @@ window.onload = function() {
     btn1.onclick = function() {
             modal.style.display = "block";
             document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
-            document.getElementById("modalT1").innerHTML = "Rundt millenniumskiftet ble Thomas Bangalter og Guy-Manuel de Homem-Christo kongene av klubbmusikk med albumene Homework (1997) og Discovery (2001). Deretter fulgte nok en fullengder før oppmerksomheten ble rettet mot andre prosjekter, som filmmusikken til Tron: Legacy. Det skulle gå hele åtte år etter Human After All (2005), men her er Daft Punk endelig tilbake med sitt fjerde studioalbum: Random Access Memories er en varm, oppfinnsom og oppriktig hyllest til dansemusikken. Første single fra albumet var Get Lucky, en tidløs discodiamant med lekker Pharrell-falsett og genialt funky gitarspill av Nile Rodgers. Blant de øvrige gjestene på albumet finner vi Paul Williams, legenden Giorgio Moroder, Todd Edwards, Panda Bear og The Strokes-frontmann Julian Casablancas.";
-            document.getElementById("modalT2").innerHTML = "Sporliste: [1. Give Life Back To Music] [2. The Game Of Love] [3. Giorgio By Moroder] [4. Within] [5. Instant Crush (featuring Julian Casablancas) ] [6.Lose Yourself To Dance (featuring Pharrell Williams)] [7.Touch (featuring Paul Williams)] [8. Get Lucky (featuring Pharrell Williams)] [9. Beyond] [10. Motherboard] [11. Fragments Of Time (featuring Todd Edwards)] [12. Doin´ It Right (featuring Panda Bear)] [13. Contact]";
+            document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+            document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
             document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
         }
         /* Knapp 2 */
