@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modal.js"></script>
-    <link	href="RSS/feed.xml"	type="application/rss+xml"	rel="alternate"	title="Min	RSS	Feed"/>
+    <link href="RSS/feed.xml" type="application/rss+xml" rel="alternate" title="Min	RSS	Feed" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -78,85 +78,113 @@
             <!-- container for hovedinnholdet -->
             <div class="main-container">
 
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <span class="close">×</span>
+                          <h2 id="modalHead">Modal Header</h2>
+                      </div>
+                      <div class="modal-body">
+                          <a href="#" id="modalPic"></a>
+                          <p id="modalT1">Some text in the Modal Body</p>
+                          <p id="modalT2">Some other text...</p>
+                          <a href="#" id="btnBuy">Legg til i handlekurv&nbsp;&nbsp;<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+              </div>
+
                 <!-- container for nye album -->
                 <div class="new">
                     <h2>Nyheter</h2>
-                <!-- Carousell -->
-                <div class="container"><br>
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
+                    <!-- Carousell -->
+                    <div class="container"><br>
+                        <div id="myCarouselNew" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarouselNew" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarouselNew" data-slide-to="1"></li>
+                                <li data-target="#myCarouselNew" data-slide-to="2"></li>
+                                <li data-target="#myCarouselNew" data-slide-to="3"></li>
+                            </ol>
 
-                <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-
-                            <a href="#" id="myBtn1"><img src="img/album/blankbanshee-mega.jpg" alt="albumbilde"></a>
-                        </div>
-
-                        <div class="item">
-                            <a href="#" id="myBtn1"><img src="img/album/blankbanshee-mega.jpg" alt="albumbilde"></a>
-                        </div>
-
-                        <div class="item">
-                            <a href="#" id="myBtn1"><img src="img/album/blankbanshee-mega.jpg" alt="albumbilde"></a>
-                        </div>
-
-                        <div class="item">
-                            <a href="#" id="myBtn1"><img src="img/album/blankbanshee-mega.jpg" alt="albumbilde"></a>
-                        </div>
-                    </div>
-
-                <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <i class="fa fa-chevron-left chevron" aria-hidden="true"></i>
-                            <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <i class="fa fa-chevron-right chevron" aria-hidden="true"></i>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-                    <!-- container for albumbildene -->
-                    <div class="flex-album">
-
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-
-                            <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <span class="close">×</span>
-                                    <h2 id="modalHead">Modal Header</h2>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <a href="#" id="myBtn1"><img src="img/album/blankbanshee-mega.jpg" alt="Blank Banshee - MEGA"></a>
                                 </div>
-                                <div class="modal-body">
-                                    <a href="#" id="modalPic"><img src="img/album/blankbanshee-mega.jpg" alt="albumbilde"></a>
-                                    <p id="modalT1">Some text in the Modal Body</p>
-                                    <p id="modalT2">Some other text...</p>
-                                    <a href="#" id="btnBuy">Legg til i handlekurv&nbsp;&nbsp;<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn2"><img src="img/album/bonjovi-haveaniceday.jpg" alt="Bon Jovi - Have a Nice Day"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn3"><img src="img/album/davidbowie-spaceoddity.jpg" alt="David-Bowie - Space Oddity"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn4"><img src="img/album/donbroco-automatic.jpg" alt="Don Broco - Automatic"></a>
                                 </div>
                             </div>
-                        </div>
 
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarouselNew" role="button" data-slide="prev">
+                                <i class="fa fa-chevron-left chevron" aria-hidden="true"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarouselNew" role="button" data-slide="next">
+                                <i class="fa fa-chevron-right chevron" aria-hidden="true"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
 
                 <!-- container for populære album -->
                 <div class="popular">
                     <h2>Populært</h2>
-                    <div class="carousel flex-right">
-                        <div class="album">
-                            <a href="#" target="_blank"><img src="albumbilde" alt="albumbilde"></a>
-                            <div class="album-info">
-                                <p></p>
+                    <!-- Carousell -->
+                    <div class="container"><br>
+                        <div id="myCarouselPop" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarouselPop" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarouselPop" data-slide-to="1"></li>
+                                <li data-target="#myCarouselPop" data-slide-to="2"></li>
+                                <li data-target="#myCarouselPop" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <a href="#" id="myBtn5"><img src="img/album/architects-aoghau.jpg" alt="Architects - All Our Gods Have Abandoned Us"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn6"><img src="img/album/foofighters-espg.jpg" alt="Foo Fighters - Echoes, Silence, Patience & Grace"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn7"><img src="img/album/metallica-ridethelightning.jpg" alt="Metallica - Ride the Lightning"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn8"><img src="img/album/milesdavis-kindofblue.jpg" alt="Miles Davis - Kind of Blue"></a>
+                                </div>
                             </div>
-                            <p class="album-sub-text"></p>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarouselPop" role="button" data-slide="prev">
+                                <i class="fa fa-chevron-left chevron" aria-hidden="true"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarouselPop" role="button" data-slide="next">
+                                <i class="fa fa-chevron-right chevron" aria-hidden="true"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -164,13 +192,45 @@
                 <!-- container for album på tilbud -->
                 <div class="sale">
                     <h2>Tilbud</h2>
-                    <div class="carousel flex-right">
-                        <div class="album">
-                            <a href="#" target="_blank"><img src="albumbilde" alt="albumbilde"></a>
-                            <div class="album-info">
-                                <p></p>
+                    <!-- Carousell -->
+                    <div class="container"><br>
+                        <div id="myCarouselSale" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarouselSale" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarouselSale" data-slide-to="1"></li>
+                                <li data-target="#myCarouselSale" data-slide-to="2"></li>
+                                <li data-target="#myCarouselSale" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <a href="#" id="myBtn9"><img src="img/album/nirvana-nevermind.jpg" alt="Nirvana - Nevermind"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn10"><img src="img/album/pinkfloyd-thewall.jpg" alt="Pink Floyd - The Wall"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn11"><img src="img/album/daftpunk-ram.jpg" alt="Daft Punk - Random Access Memories"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" id="myBtn12"><img src="img/album/thejimihendrixexperience-areyouexperienced.jpg" alt="The Jimi Jendrix Experience - Are You Experienced"></a>
+                                </div>
                             </div>
-                            <p class="album-sub-text"></p>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarouselSale" role="button" data-slide="prev">
+                                <i class="fa fa-chevron-left chevron" aria-hidden="true"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarouselSale" role="button" data-slide="next">
+                                <i class="fa fa-chevron-right chevron" aria-hidden="true"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
                     </div>
                 </div>
