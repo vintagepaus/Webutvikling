@@ -19,12 +19,12 @@ window.onload = function() {
             document.getElementById("modalT2").innerHTML = "Sporliste: [1. Give Life Back To Music] [2. The Game Of Love] [3. Giorgio By Moroder] [4. Within] [5. Instant Crush (featuring Julian Casablancas) ] [6.Lose Yourself To Dance (featuring Pharrell Williams)] [7.Touch (featuring Paul Williams)] [8. Get Lucky (featuring Pharrell Williams)] [9. Beyond] [10. Motherboard] [11. Fragments Of Time (featuring Todd Edwards)] [12. Doin´ It Right (featuring Panda Bear)] [13. Contact]"
         }
         /* Knapp 2 */
-    btn2.onclick = function() {
-        modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2"
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst"
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren"
-    }
+        /*  btn2.onclick = function() {
+              modal.style.display = "block";
+              document.getElementById("modalHead").innerHTML = "TEST2"
+              document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst"
+              document.getElementById("modalT2").innerHTML = "teksten min er fin og ren"
+          } */
 
     /* Når lukk knappen trykkes inn skal modal sin display stil endres */
     lukk.onclick = function() {
