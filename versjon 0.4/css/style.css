@@ -187,6 +187,18 @@ a i.chevron {
   line-height: 300px;
 }
 
+.album-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.album-container a img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
 footer {
     background-color: rgb(50, 50, 50);
     color: rgb(200, 200, 200);
@@ -278,9 +290,10 @@ footer {
         right: -50%;
         width: 196px;
     }
-    flex-album {
-        display: flex;
-        flex-direction: row;
+
+    .album-container a {
+      max-width: 22%;
+      height: auto;
     }
 }
 

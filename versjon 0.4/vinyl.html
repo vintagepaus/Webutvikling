@@ -4,16 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vintage Audio</title>
+    <title>Vinyl | Vintage Audio</title>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/style.css" media="screen">
-    <link rel="stylesheet" href="css/modal.css" media="screen">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/boots.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/modal.css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
     <script src="https://use.fontawesome.com/e3fa3a30c3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/script2.js"></script>
     <script src="js/modal.js"></script>
+    <link href="RSS/feed.xml" type="application/rss+xml" rel="alternate" title="Min	RSS	Feed" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -23,14 +27,14 @@
         </div>
         <header id="nav_bar">
             <div id="logo" class="menuUp">
-                <h1>Vinyler</h1>
+                <h1>Forsiden</h1>
                 <div id="navToggle"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Hjem</a></li>
+                    <li><a href="index.html">Hjem</a></li>
                     <li>
-                        <a href="#">Vinyl <span class="toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></span><span class="caret"></span></a>
+                        <a href="vinyl.html">Vinyl <span class="toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></span><span class="caret"></span></a>
                         <nav>
                             <ul>
                                 <li><a href="#">Sjanger</a></li>
@@ -42,7 +46,7 @@
                         </nav>
                     </li>
                     <li>
-                        <a href="#">Kassett <span class="toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></span><span class="caret"></span></a>
+                        <a href="kassett.html">Kassett <span class="toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></span><span class="caret"></span></a>
                         <nav>
                             <ul>
                                 <li><a href="#">Sjanger</a></li>
@@ -74,104 +78,42 @@
             <!-- container for hovedinnholdet -->
             <div class="main-container">
 
-                <!-- container for nye album -->
-                <div class="new">
-                    <h2>Nyheter</h2>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
 
-                    <!-- container for albumbildene -->
-                    <div class=" flex-album">
-
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-
-                            <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <span class="close">×</span>
-                                    <h2 id="modalHead">Modal Header</h2>
-                                </div>
-                                <div class="modal-body">
-                                    <a href="#" id="modalPic"><img src="albumbilde.png" alt="albumbilde"></a>
-                                    <p id="modalT1">Some text in the Modal Body</p>
-                                    <p id="modalT2">Some other text...</p>
-                                    <a href="#" id="btnBuy">Legg til i handlekurv</a>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#" id="myBtn1"><img src="albumbilde.png" alt="albumbilde"></a>
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-
-                            <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <span class="close">×</span>
-                                    <h2 id="modalHead">Modal Header</h2>
-                                </div>
-                                <div class="modal-body">
-                                    <a href="#" id="modalPic"><img src="albumbilde.png" alt="albumbilde"></a>
-                                    <p id="modalT1">Some text in the Modal Body</p>
-                                    <p id="modalT2">Some other text...</p>
-                                    <a href="#" id="btnBuy">Legg til i handlekurv</a>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <a href="#" id="myBtn2"><img src="albumbilde.png" alt="albumbilde"></a>
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-
-                            <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <span class="close">×</span>
-                                    <h2 id="modalHead">Modal Header</h2>
-                                </div>
-                                <div class="modal-body">
-                                    <a href="#" id="modalPic"><img src="albumbilde.png" alt="albumbilde"></a>
-                                    <p id="modalT1">Some text in the Modal Body</p>
-                                    <p id="modalT2">Some other text...</p>
-                                    <a href="#" id="btnBuy">Legg til i handlekurv</a>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- container for populære album -->
-                <div class="popular">
-                    <h2>Populært</h2>
-                    <div class="carousel flex-right">
-                        <div class="album">
-                            <a href="#" target="_blank"><img src="albumbilde" alt="albumbilde"></a>
-                            <div class="album-info">
-                                <p></p>
-                            </div>
-                            <p class="album-sub-text"></p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- container for album på tilbud -->
-                <div class="sale">
-                    <h2>Tilbud</h2>
-                    <div class="carousel flex-right">
-                        <div class="album">
-                            <a href="#" target="_blank"><img src="albumbilde" alt="albumbilde"></a>
-                            <div class="album-info">
-                                <p></p>
-                            </div>
-                            <p class="album-sub-text"></p>
-                        </div>
-                    </div>
-                </div>
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <span class="close">×</span>
+                          <h2 id="modalHead">Modal Header</h2>
+                      </div>
+                      <div class="modal-body">
+                          <a href="#" id="modalPic"></a>
+                          <p id="modalT1">Some text in the Modal Body</p>
+                          <p id="modalT2">Some other text...</p>
+                          <a href="#" id="btnBuy">Legg til i handlekurv&nbsp;&nbsp;<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <h2>Vinyl</h2>
+              <div class="album-container">
+                <a href="#" id="myBtn1"><img src="img/album/blankbanshee-mega.jpg" alt="Blank Banshee - MEGA"></a>
+                <a href="#" id="myBtn2"><img src="img/album/bonjovi-haveaniceday.jpg" alt="Bon Jovi - Have a Nice Day"></a>
+                <a href="#" id="myBtn3"><img src="img/album/davidbowie-spaceoddity.jpg" alt="David Bowie - Space Oddity"></a>
+                <a href="#" id="myBtn4"><img src="img/album/donbroco-automatic.jpg" alt="Don Broco - Automatic"></a>
+                <a href="#" id="myBtn5"><img src="img/album/architects-aoghau.jpg" alt="Architects - All Our Gods Have Abandoned Us"></a>
+                <a href="#" id="myBtn6"><img src="img/album/foofighters-espg.jpg" alt="Foo Fighters - Echoes, Silence, Patience & Grace"></a>
+                <a href="#" id="myBtn7"><img src="img/album/metallica-ridethelightning.jpg" alt="Metallica - Ride the Lightning"></a>
+                <a href="#" id="myBtn8"><img src="img/album/milesdavis-kindofblue.jpg" alt="Miles Davis - Kind of Blue"></a>
+                <a href="#" id="myBtn9"><img src="img/album/nirvana-nevermind.jpg" alt="Nirvana - Nevermind"></a>
+                <a href="#" id="myBtn10"><img src="img/album/pinkfloyd-thewall.jpg" alt="Pink Floyd - The Wall"></a>
+                <a href="#" id="myBtn11"><img src="img/album/daftpunk-ram.jpg" alt="Daft Punk - Random Access Memories"></a>
+                <a href="#" id="myBtn12"><img src="img/album/thejimihendrixexperience-areyouexperienced.jpg" alt="The Jimi Jendrix Experience - Are You Experienced"></a>
+              </div>
             </div>
         </main>
         <footer>
-            Websted laget av Pontus Adrian Ankarberg, Andreas Fauli Augustin, Martin André Brynildsen & Lars Thomas Thorsby Tollefsen
+            Websted laget av Pontus Adrian Ankarberg, Andreas Fauli Augustin, Martin André Brynildsen og Lars Thomas Thorsby Tollefsen
         </footer>
     </div>
 </body>
