@@ -2,6 +2,7 @@ div.container {
 	width: 100%;
 	padding: 0;
 }
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	margin: auto;

@@ -168,9 +168,24 @@ div h2 {
     padding: 10px;
 }
 
-.flex-album a img {
+div.container {
+	width: 100%;
+	padding: 0;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	margin: auto;
+  }
+
+.item a img {
     width: 300px;
     height: auto;
+}
+
+a i.chevron {
+  font-size: 2em;
+  line-height: 300px;
 }
 
 footer {
