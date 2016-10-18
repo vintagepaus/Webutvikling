@@ -7,7 +7,6 @@
 
 body {
     background: #555;
-    -webkit-font-smoothing: antialiased;
     font-family: "Open Sans", "Segoe UI", "Arial Nova", Verdana, Arial, sans-serif;
     font-weight: 400;
     height: auto !important;
