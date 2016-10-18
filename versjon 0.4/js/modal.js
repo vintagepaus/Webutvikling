@@ -32,80 +32,80 @@ window.onload = function() {
         /* Knapp 2 */
     btn2.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
 
     btn3.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn4.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn5.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn6.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn7.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn8.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn9.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn10.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn11.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
     btn12.onclick = function() {
         modal.style.display = "block";
-        document.getElementById("modalHead").innerHTML = "TEST2";
-        document.getElementById("modalT1").innerHTML = "Dette er en test2 tekst";
-        document.getElementById("modalT2").innerHTML = "teksten min er fin og ren";
+        document.getElementById("modalHead").innerHTML = "Blank Banshee - MEGA";
+        document.getElementById("modalT1").innerHTML = "<div><p>Sporliste:</p><ol class=\"modalList\"><li>Spor 1</li><li>Spor 2</li><li>Spor 3</li><li>Spor 4</li><li>Spor 5</li><li>Spor 6</li><li>Spor 7</li><li>Spor 8</li><li>Spor 9</li><li>Spor 10</li></ol></div";
+        document.getElementById("modalT2").innerHTML = "<p>Informasjon om artisten og albumet</p>";
         document.getElementById("modalPic").innerHTML = "<img src=\"img/album/blankbanshee-mega.jpg\" alt=\"Blank Banshee - MEGA\">";
     }
 
