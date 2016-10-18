@@ -33,7 +33,7 @@
 #modalPic {
     /* Bildet sin posisjon */
     position: relative;
-    float: right;
+    float: left;
     padding: 5px;
 }
 
