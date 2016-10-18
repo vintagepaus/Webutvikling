@@ -18,16 +18,16 @@
 .modal-content {
     /* Innholdet i modal vinduet */
     position: relative;
-    background-color: #fefefe;
+    background-color: rgb(220, 220, 220);
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
     width: 55%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    border-radius: 10px 10px 0 0;
 }
 
 #modalPic {
@@ -40,16 +40,17 @@
 #btnBuy {
     /* Knappen "Legg til i handlekurv" */
     position: relative;
-    background-color: #4CAF50;
+    background-color: rgb(50, 50, 50);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 
@@ -98,8 +99,9 @@
 .modal-header {
     /* Header */
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: rgb(50, 50, 50);
     color: white;
+    border-radius: 5px 5px 0 0;
 }
 
 .modal-body {
